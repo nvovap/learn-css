@@ -1,0 +1,28 @@
+
+
+.container {
+    background-color: gray;
+    height: 600px
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.greenBox {
+    background-color: green
+}
+
+.yellowBox {
+    background-color: yellow
+}
+
+.redBox {
+    background-color: red
+}
+
+.blueBox {
+    background-color: blue
+}
+
