@@ -2,10 +2,12 @@
 
 .container {
     background-color: gray;
-    height: 600px
+    height: 600px;
+    flex-grow: 1;
 }
 
 .box {
+    flex-basis: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,7 +18,8 @@
 }
 
 .greenBox {
-    background-color: green
+    background-color: green;
+    flex-grow: 0;
 }
 
 .yellowBox {
